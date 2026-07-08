@@ -1,0 +1,22 @@
+name: AdmPunish
+version: '${version}'
+main: me.pingvich.admpunish.AdmPunish
+api-version: '1.21'
+author: pingvich
+description: Плагин для быстрого наказания нарушителей.
+commands:
+  punish:
+    description: Главная команда наказаний
+    permission: punish.moder
+    usage: /punish [reload/игрок]
+permissions:
+  punish.*:
+    description: Полный доступ ко всем функциям плагина
+    children:
+      punish.admin: true
+  punish.admin:
+    description: Доступ к банам и мутам, а также к GUI через ПКМ в GM3
+    children:
+      punish.moder: true
+  punish.moder:
+    description: Доступ только к мутам через команду

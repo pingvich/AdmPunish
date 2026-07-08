@@ -1,0 +1,42 @@
+messages:
+  no-permission: "&c▶ &fУ вас &cнет прав &fдля использования этой команды!"
+  only-players: "&c▶ &fЭту команду могут использовать только игроки!"
+  player-not-found: "&c▶ &fИгрок %target% &cне найден &fна сервере!"
+  reload: "&a▶ &fКонфигурация плагина &aуспешно &fперезагружена!"
+  usage: "&c▶ &fИспользуйте: /punish [reload/игрок]"
+
+gui:
+  title: "&fНаказание: &7%target%"
+  mute-item-name: "&aМут"
+  ban-item-name: "&cБан"
+
+mutes:
+  title: "&fМут игрока: &7%target%"
+  items:
+    "2.1": "mute %target% 1h 2.1"
+    "2.2": "mute %target% 2h 2.2"
+    "2.3": "mute %target% 15m 2.3"
+    "2.4": "ban %target% 1d 2.4"
+    "2.5": "ban %target% 3d 2.5"
+    "2.6": "mute %target% 1d 2.6"
+    "2.7": "mute %target% 1d 2.7"
+    "2.8": "ban %target% 3d 2.8"
+    "2.9": "mute %target% 6h 2.9"
+    "2.10": "mute %target% 12h 2.10"
+    "2.11": "ban %target% 7d 2.11"
+    "2.12": "mute %target% 1d 2.12"
+
+bans:
+  title: "&fБан игрока: &7%target%"
+  items:
+    "4.1": "ban %target% 3d 4.1"
+    "4.2": "ban %target% 7d 4.2"
+    "4.3.1": "ipban %target% 30d 4.3.1"
+    "4.5": "ipban %target% 30d 4.5"
+    "4.6": "ban %target% 7d 4.6"
+    "4.6.1": "ban %target% 14d 4.6.1"
+    "4.7": "ipban %target% 30d 4.7"
+    "4.8": "ipban %target% 30d 4.8"
+    "4.9": "ban %target% 7d 4.9"
+    "4.10": "ban %target% 7d 4.10"
+    "4.13": "ban %target% 7d 4.13"
